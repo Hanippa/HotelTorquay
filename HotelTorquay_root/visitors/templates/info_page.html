@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    
+    <div style="display: flex;">
+        <div style="padding-left: 100px;">
+            <h1>Welcome to Torquay Towers</h1>
+            <h3>Explore the Great Outdoors of the English Riviera</h3>
+            <p style="width:60%;">Welcome to Torquay Towers, a luxurious 
+                hotel located in the heart of the beautiful English countryside. 
+                Our hotel offers a unique blend of traditional charm and modern 
+                amenities, providing you with the perfect escape from the stresses 
+                of everyday life.</p>
+            <p style="width:60%;">Experience the ultimate in comfort and 
+                relaxation in our luxurious rooms, each tastefully decorated 
+                with high-quality furnishings, comfortable bedding, and modern 
+                amenities, including free Wi-Fi and flat-screen TVs.</p>
+            <p style="width:60%;">Stroll through our stunning gardens and 
+                take in the tranquil beauty of the surrounding countryside. 
+                Alternatively, explore the local area, which is home to a range 
+                of attractions, including historic castles, charming villages, 
+                and scenic walking trails.</p>
+            <p style="width:60%;">Whether you're here for a romantic 
+                getaway, a family holiday, or a business trip, our friendly and 
+                professional staff are on hand 24/7 to ensure your every need is 
+                taken care of.</p>
+            <p style="width:60%;">At Torquay Towers, we pride ourselves 
+                on providing exceptional service and attention to detail. From 
+                the moment you arrive, you'll be greeted with a warm welcome and 
+                made to feel at home. Our goal is to make your stay as comfortable 
+                and enjoyable as possible.</p>
+            <p style="width:60%;">So why wait? Book your stay at Torquay 
+                Towers today and experience the best that the English countryside 
+                has to offer!</p>
+        </div>    
+        <div>
+            <img style="padding-right: 100px;" src="{% static '/images/riviera_ocean.jpeg' %}"> <br><br>
+        </div>    
+    </div>
+            <a href="#">link to the booking page</a><br>
+            <a href="#">link to the reviews page</a>
+{% endblock %}
