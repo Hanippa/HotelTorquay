@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <div  style="display: flex;">
+        <div class="description">
+            <h1>Welcome to Torquay Towers</h1>
+            <h3>Explore the Great Outdoors of the English Riviera</h3>
+            <p>Welcome to Torquay Towers, a luxurious hotel located in 
+                the heart of the beautiful English countryside. Our hotel 
+                offers a unique blend of traditional charm and modern amenities, 
+                providing you with the perfect escape from the stresses of 
+                everyday life.</p>
+            <p>Experience the ultimate in comfort and relaxation in our 
+                luxurious rooms, each tastefully decorated with high-quality 
+                furnishings, comfortable bedding, and modern amenities, 
+                including free Wi-Fi and flat-screen TVs.</p>
+            <p>Stroll through our stunning gardens and take in the tranquil 
+                beauty of the surrounding countryside. Alternatively, explore 
+                the local area, which is home to a range of attractions, 
+                including historic castles, charming villages, and scenic 
+                walking trails.</p>
+            <p>Our friendly and professional staff are on hand 24/7 to 
+                ensure your every need is taken care of, whether you're here 
+                for a romantic getaway, a family holiday, or a business trip.</p>
+            <p>At Torquay Towers, we pride ourselves on providing exceptional 
+                service and attention to detail. Book your stay today and 
+                experience the best that the English countryside has to offer!</p>
+
+        </div>    
+        <div>
+            <img class="image" style="padding-right: 100px;" src="{% static '/images/riviera_ocean.jpeg' %}"> <br><br>
+        </div> 
+        <div class="links">
+            <a href="#">link to the booking page</a><br><br>
+            <a href="#">link to the reviews page</a>
+        </div>   
+    </div>
+        
+            
+{% endblock %}
